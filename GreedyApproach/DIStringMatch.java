@@ -5,7 +5,7 @@ import java.util.*;
 public class DIStringMatch {
     public static int[] stringMatch(String s) {
         int n = s.length();
-        int low = 0;
+        int low = 0;                                                            
         int high = n;
         int[] res = new int[n + 1];
         for (int i = 0; i < n; i++) {
